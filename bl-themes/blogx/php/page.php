@@ -17,7 +17,7 @@
 
 		<?php if (!$page->isStatic() && !$url->notFound()): ?>
 		<!-- Creation date -->
-		<h6 class="card-subtitle mb-3 text-muted"><?php echo $page->date(); ?> - <?php echo $Language->get('Reading time') . ': ' . $page->readingTime() ?></h6>
+		<p class="card-subtitle mb-3 text-muted"><?php echo $page->date(); ?> - <?php echo $Language->get('Reading time') . ': ' . $page->readingTime() ?></p>
 		<?php endif ?>
 
 		<!-- Full content -->
